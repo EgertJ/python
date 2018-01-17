@@ -1,0 +1,13 @@
+import tkinter
+from tkinter import messagebox
+
+päis= tkinter.Tk()
+päis.title("Uusaasta lubadus")
+
+def Lubadus():
+    messagebox.showinfo("Uue aasta lubadus", "Uue aasta lubaduseks on see, et saada vene keeles ja geos postiivne hinne")
+
+B1=tkinter.Button(päis, text= "Lubadus",bg="red",height="10",width="20",command= Lubadus)
+B1.pack()
+
+päis()
